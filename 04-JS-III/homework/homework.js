@@ -220,7 +220,7 @@ function breakStatement(numero) {
     }
     numero+=2;
     bucle.push(numero);
-  }
+  };
   if(i<10) return "Se interrumpió la ejecución";
   return bucle;
 }
